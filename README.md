@@ -11,7 +11,10 @@ Run `npm install`
 Run `npm run main` , both application has been configured to run in the same application. 
 
 ## Input
-Input files are defined in 'input' folder for each application. New files are not automatically processed and they needs to be added in in the 'src/index.js' file accordingly.
+Input files are defined in 'input' folder for each application. New files are not automatically processed and they needs to be added in in the ['src/index.js'](src/index.js) file accordingly.
 
 ## Output
 Output for each application are seperated to their own files "OutputJobPicker" and "OutputGiftPicker".
+
+## How to Demo Recording
+Check [Demo](recording/Screen%20Recording%202025-01-18%20at%2019.57.36.mov)
