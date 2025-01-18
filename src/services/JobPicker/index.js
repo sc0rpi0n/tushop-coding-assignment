@@ -52,7 +52,7 @@ const jobScheduler = (jobs) => {
  * @param {string} inputFileLocation 
  */
 const run = (inputFileLocation) => {
-    const outputFile = "../output/OutputJobPicker.txt";
+    const outputFile = "./output/OutputJobPicker.txt";
 
     const returnJsonObj = parseInputFileToJson(inputFileLocation);
     let output = '';

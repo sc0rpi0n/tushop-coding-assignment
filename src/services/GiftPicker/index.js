@@ -36,7 +36,7 @@ const findMinDifference = (goodies, employees) => {
  * @param {number} noOfEmployees
  */
 const run = (inputFileLocation, noOfEmployees) => {
-    const outputFile = "../output/OutputGiftPicker.txt";
+    const outputFile = "./output/OutputGiftPicker.txt";
     let output = '';
 
     const returnObj = parseInputFileToGiftsJson(inputFileLocation);
